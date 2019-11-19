@@ -4,6 +4,10 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)},
+  {
+    path: 'modal-coordonnees',
+    loadChildren: () => import('./modal-coordonnees/modal-coordonnees.module').then( m => m.ModalCoordonneesPageModule)
+  },
 ];
 
 @NgModule({

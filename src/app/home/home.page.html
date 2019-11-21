@@ -48,283 +48,319 @@
         </ion-toolbar>
     </ion-header>
 
-    <ion-content id="content">
+    <ion-content>
         <div class="ion-padding">
             <ion-row>
-                <ion-col size-xs="12" size-md="6" size-lg="4">
-                    <div #informations>
-                        <ion-card id="informations">
-                            <img src="assets/photo.jpeg" />
-                            <ion-card-header>
-                                <ion-card-title>Qui suis-je ?</ion-card-title>
-                            </ion-card-header>
-                            <ion-card-content>
-                                <p class="ion-text-wrap">
-                                    Curieux, dynamique et enjoué, je me tiens au courant des dernières technologies ainsi que de l'évolution de mon métier.
-                                    J'ai à coeur de mettre au service des gens mes connaissances technique pour trouver les solutions qui répondrons à leurs besoins.
-                                </p>
-                                <ion-list>
-                                    <ion-item>
-                                        <ion-icon name="finger-print" slot="start"></ion-icon>
-                                        <ion-label>
-                                            <h2 class="ion-text-wrap">Arthur MICHEL</h2>
-                                        </ion-label>
-                                    </ion-item>
-                                    <ion-item>
-                                        <ion-icon name="walk" slot="start"></ion-icon>
-                                        <ion-label>
-                                            <h2 class="ion-text-wrap">23 ans</h2>
-                                        </ion-label>
-                                    </ion-item>
-                                    <ion-item>
-                                        <ion-icon name="mail" slot="start"></ion-icon>
-                                        <ion-label>
-                                            <h2 class="ion-text-wrap">
-                                                <a href="mailto:contact@arthurmichel.com">contact@arthurmichel.com</a>
-                                            </h2>
-                                        </ion-label>
-                                    </ion-item>
-                                    <ion-item>
-                                        <ion-icon name="keypad" slot="start"></ion-icon>
-                                        <ion-label>
-                                            <h2 class="ion-text-wrap">06 24 18 94 96</h2>
-                                        </ion-label>
-                                    </ion-item>
-                                    <ion-item>
-                                        <ion-icon name="business" slot="start"></ion-icon>
-                                        <ion-label>
-                                            <h2 class="ion-text-wrap">4 avenue Francis Bouet, 49300 Cholet</h2>
-                                        </ion-label>
-                                    </ion-item>
-                                    <ion-item>
-                                        <ion-icon name="car" slot="start"></ion-icon>
-                                        <ion-label>
-                                            <h2 class="ion-text-wrap">Permis B & véhicule</h2>
-                                        </ion-label>
-                                    </ion-item>
-                                </ion-list>
-                            </ion-card-content>
-                        </ion-card>
-                    </div>
+                <ion-col size-xs="0" size-xl="1"></ion-col>
+                <ion-col size-xs="12" size-xl="10">
+                    <ion-row>
+                        <ion-col size-xs="12" size-md="6" size-lg="4">
+                            <div #informations>
+                                <ion-card id="informations">
+                                    <ion-row>
+                                        <ion-col size="2"></ion-col>
+                                        <ion-col size="8">
+                                            <img src="assets/photo-cropped.png" />
+                                        </ion-col>
+                                        <ion-col size="2"></ion-col>
+                                    </ion-row>
+                                    <ion-card-header>
+                                        <ion-card-title>Qui suis-je ?</ion-card-title>
+                                    </ion-card-header>
+                                    <ion-card-content>
+                                        <p class="ion-text-wrap">
+                                            <span>Curieux</span>, <span>dynamique</span> et <span>enjoué</span>, je me tiens au courant
+                                            des dernières technologies ainsi que de l'évolution de mon métier.
+                                            J'ai à coeur de mettre au service des gens mes connaissances technique pour trouver les solutions qui
+                                            répondrons à leurs besoins.
+                                        </p>
+                                        <ion-list>
+                                            <ion-item>
+                                                <ion-icon name="finger-print" slot="start"></ion-icon>
+                                                <ion-label>
+                                                    <h2 class="ion-text-wrap">Arthur MICHEL</h2>
+                                                </ion-label>
+                                            </ion-item>
+                                            <ion-item>
+                                                <ion-icon name="walk" slot="start"></ion-icon>
+                                                <ion-label>
+                                                    <h2 class="ion-text-wrap">23 ans</h2>
+                                                </ion-label>
+                                            </ion-item>
+                                            <ion-item>
+                                                <ion-icon name="mail" slot="start"></ion-icon>
+                                                <ion-label>
+                                                    <h2 class="ion-text-wrap">
+                                                        <a href="mailto:contact@arthurmichel.com">contact@arthurmichel.com</a>
+                                                    </h2>
+                                                </ion-label>
+                                            </ion-item>
+                                            <ion-item>
+                                                <ion-icon name="keypad" slot="start"></ion-icon>
+                                                <ion-label>
+                                                    <h2 class="ion-text-wrap">06 24 18 94 96</h2>
+                                                </ion-label>
+                                            </ion-item>
+                                            <ion-item>
+                                                <ion-icon name="business" slot="start"></ion-icon>
+                                                <ion-label>
+                                                    <h2 class="ion-text-wrap">4 avenue Francis Bouet, 49300 Cholet</h2>
+                                                </ion-label>
+                                            </ion-item>
+                                            <ion-item>
+                                                <ion-icon name="car" slot="start"></ion-icon>
+                                                <ion-label>
+                                                    <h2 class="ion-text-wrap">Permis B & véhicule</h2>
+                                                </ion-label>
+                                            </ion-item>
+                                        </ion-list>
+                                    </ion-card-content>
+                                </ion-card>
+                            </div>
+                        </ion-col>
+
+                        <ion-col size-xs="12" size-md="6" size-lg="4">
+                            <div #competences>
+                                <ion-card id="competences">
+                                    <img src="assets/library.png" />
+                                    <ion-card-header>
+                                        <ion-card-title>Mes compétences</ion-card-title>
+                                    </ion-card-header>
+
+                                    <ion-card-content>
+                                        <ion-list>
+                                            <ion-item>
+                                                <ion-label class="ion-text-wrap">
+                                                    <h2>Symfony, PHP, javascript, jQuery, HTML, CSS</h2>
+                                                    <ion-progress-bar value="0.8" color="primary"></ion-progress-bar>
+                                                    <p>Niveau avancé</p>
+                                                </ion-label>
+                                            </ion-item>
+                                            <ion-item>
+                                                <ion-label class="ion-text-wrap">
+                                                    <h2>Java, C#, Git, NPM, SQL</h2>
+                                                    <ion-progress-bar value="0.5" color="secondary"></ion-progress-bar>
+                                                    <p>Niveau intermédiaire</p>
+                                                </ion-label>
+                                            </ion-item>
+                                            <ion-item>
+                                                <ion-label class="ion-text-wrap">
+                                                    <h2>Xamarin, Ionic, Angular, Apache</h2>
+                                                    <ion-progress-bar value="0.2" color="tertiary"></ion-progress-bar>
+                                                    <p>Bases</p>
+                                                </ion-label>
+                                            </ion-item>
+                                            <ion-item>
+                                                <ion-label class="ion-text-wrap">
+                                                    <h2>Anglais</h2>
+                                                    <p>Lu, écrit, parlé</p>
+                                                </ion-label>
+                                            </ion-item>
+                                            <ion-item>
+                                                <ion-label class="ion-text-wrap ion-text-center">
+                                                    <ion-chip>
+                                                        <ion-icon name="logo-tux"></ion-icon>
+                                                        <ion-label>Linux</ion-label>
+                                                        <ion-icon name="checkmark-circle"></ion-icon>
+                                                    </ion-chip>
+                                                    <ion-chip>
+                                                        <ion-icon name="logo-windows"></ion-icon>
+                                                        <ion-label>Windows</ion-label>
+                                                        <ion-icon name="checkmark-circle"></ion-icon>
+                                                    </ion-chip>
+                                                    <ion-chip>
+                                                        <ion-icon name="logo-apple"></ion-icon>
+                                                        <ion-label>MacOS</ion-label>
+                                                        <ion-icon name="checkmark-circle"></ion-icon>
+                                                    </ion-chip>
+                                                </ion-label>
+                                            </ion-item>
+                                        </ion-list>
+                                    </ion-card-content>
+                                </ion-card>
+                            </div>
+                        </ion-col>
+
+                        <ion-col size-xs="12" size-md="6" size-lg="4">
+                            <div #experiences>
+                                <ion-card id="experiences">
+                                    <img src="assets/shaking-hands.png" />
+                                    <ion-card-header>
+                                        <ion-card-title>Mes experiences</ion-card-title>
+                                    </ion-card-header>
+
+                                    <ion-card-content>
+                                        <ion-list>
+                                            <ion-item>
+                                                <ion-text slot="start">
+                                                    2020<br>
+                                                    2018
+                                                </ion-text>
+                                                <ion-label class="ion-text-wrap">
+                                                    <h2>Concepteur Développeur</h2>
+                                                    <h3>Puy du Fou</h3>
+                                                    <p>
+                                                        Développement d'applications répondants aux besoins spécifiques
+                                                        du parc au sein de son équipe informatique.
+                                                        Utilisation de <span class="bold">Symfony</span>, <span class="bold">jQuery</span>, <span class="bold">Git</span>,
+                                                        <span class="bold">NPM</span>, <span class="bold">Webpack Encore</span>.
+                                                    </p>
+                                                </ion-label>
+                                            </ion-item>
+                                            <ion-item>
+                                                <ion-text slot="start">
+                                                    2017
+                                                </ion-text>
+                                                <ion-label class="ion-text-wrap">
+                                                    <h2>Développeur PHP</h2>
+                                                    <h3>Fives Filling & Sealing</h3>
+                                                    <p>
+                                                        Stage de deuxième année de BTS SIO à Fives Filling & Sealing.
+                                                        Développement de scripts de test en PHP pour les nouvelles mise-à-jour de l’ERP
+                                                        de l’entreprise. Utilisation de <span class="bold">Brackets</span>,
+                                                        <span class="bold">PHPUnit</span> ainsi que de <span class="bold">Laravel</span>.
+                                                        Travail au sein du service informatique.
+                                                    </p>
+                                                </ion-label>
+                                            </ion-item>
+                                            <ion-item>
+                                                <ion-text slot="start">
+                                                    2016
+                                                </ion-text>
+                                                <ion-label class="ion-text-wrap">
+                                                    <h2>Développeur web</h2>
+                                                    <h3>Karnadoo</h3>
+                                                    <p>
+                                                        Stage de fin de première année de BTS SIO.
+                                                        Développement du site internet pour une concession automobile
+                                                        avec demande de cartes grise. Utilisation d’<span class="bold">HTML</span>,
+                                                        de <span class="bold">WAMP Server</span> ainsi que de <span class="bold">NotePad++</span>.
+                                                        Travail en autonomie.
+                                                    </p>
+                                                </ion-label>
+                                            </ion-item>
+                                        </ion-list>
+                                    </ion-card-content>
+                                </ion-card>
+                            </div>
+                        </ion-col>
+
+                        <ion-col size-xs="12" size-md="6" size-lg="4">
+                            <div #parcours>
+                                <ion-card>
+                                    <img src="assets/document-flow.png" />
+                                    <ion-card-header>
+                                        <ion-card-title>Mon parcours</ion-card-title>
+                                    </ion-card-header>
+
+                                    <ion-card-content>
+                                        <ion-list>
+                                            <ion-item>
+                                                <ion-text slot="start">
+                                                    2020<br>
+                                                    2018
+                                                </ion-text>
+                                                <ion-label class="ion-text-wrap">
+                                                    <h2>Titre de CDA</h2>
+                                                    <h3>ENI Ecole Informatique</h3>
+                                                    <p>Formation en alternance, titre de Concepteur Développeur d'Applications</p>
+                                                </ion-label>
+                                            </ion-item>
+                                            <ion-item>
+                                                <ion-buttons slot="start">
+                                                    2017
+                                                </ion-buttons>
+                                                <ion-label class="ion-text-wrap">
+                                                    <h2>BTS SIO option SLAM</h2>
+                                                    <h3>La Joliverie</h3>
+                                                    <p>Obtention du BTS Services Informatiques aux Organisations option Solutions Logicielles et Applications Métier</p>
+                                                </ion-label>
+                                            </ion-item>
+                                            <ion-item>
+                                                <ion-buttons slot="start">
+                                                    2015
+                                                </ion-buttons>
+                                                <ion-label class="ion-text-wrap">
+                                                    <h2>BTSA GPN</h2>
+                                                    <h3>La Joliverie</h3>
+                                                    <p>Première année de BTSA Gestion et Protection de la Nature</p>
+                                                </ion-label>
+                                            </ion-item>
+                                            <ion-item>
+                                                <ion-buttons slot="start">
+                                                    2014
+                                                </ion-buttons>
+                                                <ion-label class="ion-text-wrap">
+                                                    <h2>BAC STL</h2>
+                                                    <h3>Talensac</h3>
+                                                    <p>Obtention du BAC Sciences et Techniques de Laboratoire, mention AB</p>
+                                                </ion-label>
+                                            </ion-item>
+                                        </ion-list>
+                                    </ion-card-content>
+                                </ion-card>
+                            </div>
+                        </ion-col>
+
+                        <ion-col size-xs="12" size-md="6" size-lg="4">
+                            <div #passions>
+                                <ion-card>
+                                    <img src="assets/abstract-coffee-break.png" />
+                                    <ion-card-header>
+                                        <ion-card-title>Mes passions</ion-card-title>
+                                    </ion-card-header>
+
+                                    <ion-card-content>
+                                        <ion-list>
+                                            <ion-item>
+                                                <ion-icon slot="start" name="laptop"></ion-icon>
+                                                <ion-label class="ion-text-wrap">
+                                                    <h2>Informatique</h2>
+                                                    <p>
+                                                        Je me tiens informé des nouveautées hardware ainsi que de l'évolution des technologies que j'utilise dans mon travail.
+                                                        Je réalise également des projets sur mon temps personnel.
+                                                    </p>
+                                                </ion-label>
+                                            </ion-item>
+                                            <ion-item>
+                                                <ion-icon slot="start" name="logo-game-controller-a"></ion-icon>
+                                                <ion-label class="ion-text-wrap">
+                                                    <h2>Jeux-vidéo</h2>
+                                                    <p>
+                                                        Je pratique et suis l'actualité de ce média. Je collectionne également de nombreuses pièces (consoles, jeux, produits dérivés).
+                                                    </p>
+                                                </ion-label>
+                                            </ion-item>
+                                            <ion-item>
+                                                <ion-icon slot="start" name="musical-note"></ion-icon>
+                                                <ion-label class="ion-text-wrap">
+                                                    <h2>Musique</h2>
+                                                    <p>
+                                                        J'écoute et collectionne des vinyles, des cassettes et des CDs.
+                                                    </p>
+                                                </ion-label>
+                                            </ion-item>
+                                            <ion-item>
+                                                <ion-icon slot="start" name="basketball"></ion-icon>
+                                                <ion-label class="ion-text-wrap">
+                                                    <h2>NBA</h2>
+                                                    <p>
+                                                        Tous les jours je suis les résultats des matchs de la nuit précédente et je garde un oeil sur les actualités. #WeTheNorth
+                                                    </p>
+                                                </ion-label>
+                                            </ion-item>
+                                        </ion-list>
+                                    </ion-card-content>
+                                </ion-card>
+                            </div>
+                        </ion-col>
+
+                        <ion-col size-xs="0" size-md="6" size-lg="4" class="ion-align-self-end">
+                            <img end src="assets/ginger-cat-done.png">
+                        </ion-col>
+                    </ion-row>
                 </ion-col>
-
-                <ion-col size-xs="12" size-md="6" size-lg="4">
-                    <div #competences>
-                        <ion-card id="competences">
-                            <img src="assets/library.png" />
-                            <ion-card-header>
-                                <ion-card-title>Mes compétences</ion-card-title>
-                            </ion-card-header>
-
-                            <ion-card-content>
-                                <ion-list>
-                                    <ion-item>
-                                        <ion-label>
-                                            <h2 class="ion-text-wrap">Symfony, PHP, javascript, jQuery, HTML, CSS</h2>
-                                            <ion-progress-bar value="0.8" color="primary"></ion-progress-bar>
-                                            <p class="ion-text-wrap">Niveau avancé</p>
-                                        </ion-label>
-                                    </ion-item>
-                                    <ion-item>
-                                        <ion-label>
-                                            <h2 class="ion-text-wrap">Java, C#, SQL</h2>
-                                            <ion-progress-bar value="0.5" color="secondary"></ion-progress-bar>
-                                            <p class="ion-text-wrap">Niveau intermédiaire</p>
-                                        </ion-label>
-                                    </ion-item>
-                                    <ion-item>
-                                        <ion-label>
-                                            <h2 class="ion-text-wrap">Xamarin, Angular, Apache</h2>
-                                            <ion-progress-bar value="0.2" color="tertiary"></ion-progress-bar>
-                                            <p class="ion-text-wrap">Bases</p>
-                                        </ion-label>
-                                    </ion-item>
-                                    <ion-item>
-                                        <ion-label>
-                                            <h2 class="ion-text-wrap">Anglais</h2>
-                                            <p class="ion-text-wrap">
-                                                Lu, écrit, parlé
-                                            </p>
-                                        </ion-label>
-                                    </ion-item>
-                                    <ion-item>
-                                        <ion-label>
-                                            <h2 class="ion-text-wrap">Windows, Linux, MacOS</h2>
-                                        </ion-label>
-                                    </ion-item>
-                                </ion-list>
-                            </ion-card-content>
-                        </ion-card>
-                    </div>
-                </ion-col>
-
-                <ion-col size-xs="12" size-md="6" size-lg="4">
-                    <div #experiences>
-                        <ion-card id="experiences">
-                            <img src="assets/shaking-hands.png" />
-                            <ion-card-header>
-                                <ion-card-title>Mes experiences</ion-card-title>
-                            </ion-card-header>
-
-                            <ion-card-content>
-                                <ion-list>
-                                    <ion-item>
-                                        <ion-text slot="start">
-                                            2020<br>
-                                            2018
-                                        </ion-text>
-                                        <ion-label>
-                                            <h2 class="ion-text-wrap">Concepteur Développeur</h2>
-                                            <h3 class="ion-text-wrap">Puy du Fou</h3>
-                                            <p class="ion-text-wrap">Développement d'applications répondants aux besoins spécifiques
-                                                du parc au sein de son équipe informatique.</p>
-                                        </ion-label>
-                                    </ion-item>
-                                    <ion-item>
-                                        <ion-text slot="start">
-                                            2017
-                                        </ion-text>
-                                        <ion-label>
-                                            <h2 class="ion-text-wrap">Développeur PHP</h2>
-                                            <h3 class="ion-text-wrap">Fives Filling & Sealing</h3>
-                                            <p class="ion-text-wrap">Stage de deuxième année de BTS SIO à Fives Filling & Sealing.
-                                                Développement de scripts de test en PHP pour les nouvelles mise-à-jour de l’ERP
-                                                de l’entreprise. Utilisation de Brackets, PHPUnit ainsi que de Laravel.
-                                                Travail au sein du service informatique.</p>
-                                        </ion-label>
-                                    </ion-item>
-                                    <ion-item>
-                                        <ion-text slot="start">
-                                            2016
-                                        </ion-text>
-                                        <ion-label>
-                                            <h2 class="ion-text-wrap">Développeur web</h2>
-                                            <h3 class="ion-text-wrap">Karnadoo</h3>
-                                            <p class="ion-text-wrap">Stage de fin de première année de BTS SIO.
-                                                Développement du site internet pour une concession automobile
-                                                avec demande de cartes grise. Utilisation d’HTML,
-                                                de WAMP Server ainsi que de NotePad++. Travail en autonomie.</p>
-                                        </ion-label>
-                                    </ion-item>
-                                </ion-list>
-                            </ion-card-content>
-                        </ion-card>
-                    </div>
-                </ion-col>
-
-                <ion-col size-xs="12" size-md="6">
-                    <div #parcours>
-                        <ion-card>
-                            <img src="assets/document-flow.png" />
-                            <ion-card-header>
-                                <ion-card-title>Mon parcours</ion-card-title>
-                            </ion-card-header>
-
-                            <ion-card-content>
-                                <ion-list>
-                                    <ion-item>
-                                        <ion-text slot="start">
-                                            2020<br>
-                                            2018
-                                        </ion-text>
-                                        <ion-label>
-                                            <h2 class="ion-text-wrap">Titre de CDA</h2>
-                                            <h3 class="ion-text-wrap">ENI Ecole Informatique</h3>
-                                            <p class="ion-text-wrap">Formation en alternance, titre de Concepteur Développeur d'Applications</p>
-                                        </ion-label>
-                                    </ion-item>
-                                    <ion-item>
-                                        <ion-buttons slot="start">
-                                            2017
-                                        </ion-buttons>
-                                        <ion-label>
-                                            <h2 class="ion-text-wrap">BTS SIO option SLAM</h2>
-                                            <h3 class="ion-text-wrap">La Joliverie</h3>
-                                            <p class="ion-text-wrap">Obtention du BTS Services Informatiques aux Organisations option Solutions Logicielles et Applications Métier</p>
-                                        </ion-label>
-                                    </ion-item>
-                                    <ion-item>
-                                        <ion-buttons slot="start">
-                                            2015
-                                        </ion-buttons>
-                                        <ion-label>
-                                            <h2 class="ion-text-wrap">BTSA GPN</h2>
-                                            <h3 class="ion-text-wrap">La Joliverie</h3>
-                                            <p class="ion-text-wrap">Première année de BTSA Gestion et Protection de la Nature</p>
-                                        </ion-label>
-                                    </ion-item>
-                                    <ion-item>
-                                        <ion-buttons slot="start">
-                                            2014
-                                        </ion-buttons>
-                                        <ion-label>
-                                            <h2 class="ion-text-wrap">BAC STL</h2>
-                                            <h3 class="ion-text-wrap">Talensac</h3>
-                                            <p class="ion-text-wrap">Obtention du BAC Sciences et Techniques de Laboratoire, mention AB
-                                        </ion-label>
-                                    </ion-item>
-                                </ion-list>
-                            </ion-card-content>
-                        </ion-card>
-                    </div>
-                </ion-col>
-
-                <ion-col size-xs="12" size-md="6">
-                    <div #passions>
-                        <ion-card>
-                            <img src="assets/abstract-coffee-break.png" />
-                            <ion-card-header>
-                                <ion-card-title>Mes passions</ion-card-title>
-                            </ion-card-header>
-
-                            <ion-card-content>
-                                <ion-list>
-                                    <ion-item>
-                                        <ion-icon slot="start" name="laptop"></ion-icon>
-                                        <ion-label>
-                                            <h2 class="ion-text-wrap">Informatique</h2>
-                                            <p class="ion-text-wrap">
-                                                Je me tiens informé des nouveautées hardware ainsi que de l'évolution des technologies que j'utilise dans mon travail.
-                                                Je réalise également des projets sur mon temps personnel.
-                                            </p>
-                                        </ion-label>
-                                    </ion-item>
-                                    <ion-item>
-                                        <ion-icon slot="start" name="logo-game-controller-a"></ion-icon>
-                                        <ion-label>
-                                            <h2 class="ion-text-wrap">Jeux-vidéo</h2>
-                                            <p class="ion-text-wrap">
-                                                Je pratique et suis l'actualité de ce média. Je collectionne également de nombreuses pièces (consoles, jeux, produits dérivés).
-                                            </p>
-                                        </ion-label>
-                                    </ion-item>
-                                    <ion-item>
-                                        <ion-icon slot="start" name="musical-note"></ion-icon>
-                                        <ion-label>
-                                            <h2 class="ion-text-wrap">Musique</h2>
-                                            <p class="ion-text-wrap">
-                                                J'écoute et collectionne des vinyles, des cassettes et des CDs.
-                                            </p>
-                                        </ion-label>
-                                    </ion-item>
-                                    <ion-item>
-                                        <ion-icon slot="start" name="basketball"></ion-icon>
-                                        <ion-label>
-                                            <h2 class="ion-text-wrap">NBA</h2>
-                                            <p class="ion-text-wrap">
-                                                Tous les jours je suis les résultats des matchs de la nuit précédente et je garde un oeil sur les actualités.
-                                            </p>
-                                        </ion-label>
-                                    </ion-item>
-                                </ion-list>
-                            </ion-card-content>
-                        </ion-card>
-                    </div>
-                </ion-col>
-
-                <ion-col size-xs="0" size-md="6" size-lg="0" class="ion-align-self-end">
-                    <img end src="assets/ginger-cat-done.png">
-                </ion-col>
+                <ion-col size-xs="0" size-xl="1"></ion-col>
             </ion-row>
         </div>
     </ion-content>
